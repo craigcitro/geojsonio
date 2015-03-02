@@ -1,7 +1,21 @@
 language: r
 
+apt_packages:
+  - gdal-bin
+  - libgdal-dev
+  - libgdal1-dev
+  - libgdal1h
+  - libhdf5-7
+  - libhdf5-dev
+  - libhdf5-serial-dev
+  - libproj-dev
+  - netcdf-bin
+
 r_binary_packages:
   - rgdal
+  - ggplot2
+  - maps
+  - RColorBrewer
   
 r_github_packages:  
   - jimhester/covr
